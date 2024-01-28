@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 
 const app = express();
-const port = 80;
+const port = 3000;
 
 app.get('/search', (req, res) => {
   const searchTerm = req.query;
